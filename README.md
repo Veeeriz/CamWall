@@ -6,16 +6,16 @@ This repository holds CamWall's public documentation, privacy policy and issue t
 
 | | |
 |---|---|
-| **Website** | <https://veeriz.github.io/CamWall/> |
-| **Privacy policy** | <https://veeriz.github.io/CamWall/privacy/> |
-| **Support** | <https://veeriz.github.io/CamWall/support/> |
-| **Guides & FAQ** | [Wiki](https://github.com/veeriz/CamWall/wiki) |
-| **Report a bug / request a feature** | [Issues](https://github.com/veeriz/CamWall/issues/new/choose) |
+| **Website** | <https://veeeriz.github.io/CamWall/> |
+| **Privacy policy** | <https://veeeriz.github.io/CamWall/privacy/> |
+| **Support** | <https://veeeriz.github.io/CamWall/support/> |
+| **Guides & FAQ** | [Wiki](https://github.com/Veeeriz/CamWall/wiki) |
+| **Report a bug / request a feature** | [Issues](https://github.com/Veeeriz/CamWall/issues/new/choose) |
 | **Email** | <camwall@veerman.se> |
 
 ## Privacy in one line
 
-CamWall collects no data. Everything stays on your Apple TV and goes only to the servers and cameras you add. See the [privacy policy](https://veeriz.github.io/CamWall/privacy/).
+CamWall collects no data. Everything stays on your Apple TV and goes only to the servers and cameras you add. See the [privacy policy](https://veeeriz.github.io/CamWall/privacy/).
 
 ## Repository layout
 

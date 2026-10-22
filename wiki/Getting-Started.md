@@ -1,6 +1,6 @@
 # Getting Started
 
-The full guide is on the website: <https://veeriz.github.io/CamWall/getting-started/>
+The full guide is on the website: <https://veeeriz.github.io/CamWall/getting-started/>
 
 ## Checklist
 

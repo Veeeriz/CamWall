@@ -7,8 +7,8 @@ permalink: /support/
 ## Contact
 
 - **Email:** <camwall@veerman.se> — usually answered within a few days.
-- **Bugs and feature requests:** [GitHub Issues](https://github.com/veeriz/CamWall/issues/new/choose) (needs a GitHub account).
-- **Guides and FAQ:** the [wiki](https://github.com/veeriz/CamWall/wiki).
+- **Bugs and feature requests:** [GitHub Issues](https://github.com/Veeeriz/CamWall/issues/new/choose) (needs a GitHub account).
+- **Guides and FAQ:** the [wiki](https://github.com/Veeeriz/CamWall/wiki).
 
 When reporting a problem, include your Apple TV model, tvOS version, CamWall version, Frigate version and camera brands. **Never send passwords.**
 
@@ -32,4 +32,4 @@ Yes — choose Demo mode on first launch.
 **Does CamWall work away from home?**
 Only if your Apple TV can reach your Frigate server, for example over a VPN. CamWall has no cloud relay.
 
-More in [Getting started](../getting-started/) and the [wiki](https://github.com/veeriz/CamWall/wiki).
+More in [Getting started](../getting-started/) and the [wiki](https://github.com/Veeeriz/CamWall/wiki).

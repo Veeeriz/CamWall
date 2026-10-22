@@ -1,6 +1,6 @@
 # FAQ
 
-The most common questions are answered on the [support page](https://veeriz.github.io/CamWall/support/).
+The most common questions are answered on the [support page](https://veeeriz.github.io/CamWall/support/).
 
 **Does CamWall need an account or cloud service?**
 No. It talks only to your own Frigate server and cameras.

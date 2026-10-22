@@ -10,4 +10,4 @@ Guides and answers for CamWall, the Apple TV camera wall for Frigate NVR and RTS
 - [[Privacy Policy]]
 - [[Contact]]
 
-Website: <https://veeriz.github.io/CamWall/>
+Website: <https://veeeriz.github.io/CamWall/>
