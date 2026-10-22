@@ -20,6 +20,9 @@ Check that Frigate's go2rtc restream is enabled for the camera (CamWall plays `r
 **Some cameras don't start playing on the wall.**
 Each Apple TV model can decode only a limited number of streams at once, so CamWall caps how many autoplay. Use substreams for wall tiles, or turn the limit off in Settings.
 
+**The timeline is empty for some cameras.**
+Frigate only creates alerts and detections for cameras that record, so cameras with recording off have nothing to show in the timeline, even though their live detection banners work. Turn on recording for those cameras; [Getting started](../getting-started/) shows a setup that keeps only the footage around events.
+
 **"Mark reviewed" is missing.**
 On Frigate's port 5000 every user is anonymous, so review state can't be saved. Connect on port 8971 with a Frigate login.
 
