@@ -1,0 +1,40 @@
+name: Bug report
+description: Something in CamWall doesn't work as expected.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "**Never post passwords, tokens or public addresses of your cameras or server.**"
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. Open the camera wall\n2. ..."
+  - type: input
+    id: app
+    attributes:
+      label: CamWall version
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Apple TV model and tvOS version
+      placeholder: Apple TV 4K (2nd gen), tvOS 26.0
+    validations:
+      required: true
+  - type: input
+    id: frigate
+    attributes:
+      label: Frigate version
+  - type: input
+    id: cameras
+    attributes:
+      label: Camera brands / models involved

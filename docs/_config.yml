@@ -1,0 +1,9 @@
+title: CamWall
+description: A camera wall for Apple TV, built for Frigate NVR and RTSP cameras.
+theme: minima
+email: camwall@veerman.se
+header_pages:
+  - getting-started.md
+  - support.md
+  - privacy.md
+  - acknowledgements.md
