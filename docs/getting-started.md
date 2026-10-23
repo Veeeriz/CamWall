@@ -10,6 +10,20 @@ permalink: /getting-started/
 - Decide on a port:
   - **5000** — no login, but "mark reviewed" is unavailable.
   - **8971** — HTTPS with a Frigate login; everything works. Self-signed certificates are accepted once and then remembered.
+- Turn on **recording** for every camera whose events you want in the timeline. Frigate only creates alerts and detections (review items) for cameras that record; live detection banners work either way. To keep only the footage around events, not continuous video:
+
+  ```yaml
+  record:
+    enabled: true
+    continuous:
+      days: 0       # no continuous footage (older Frigate: retain: days: 0)
+    alerts:
+      retain:
+        days: 7
+    detections:
+      retain:
+        days: 3
+  ```
 
 ## 2. Add your server
 
