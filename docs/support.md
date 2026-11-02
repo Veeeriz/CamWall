@@ -12,6 +12,15 @@ permalink: /support/
 
 When reporting a problem, include your Apple TV model, tvOS version, CamWall version, Frigate version and camera brands. **Never send passwords.**
 
+## Trial and purchase
+
+- **Free trial:** CamWall is free to try for 60 days with your own cameras. You start the trial yourself ("Start 60-Day Free Trial"). It costs nothing and never turns into a subscription.
+- **Unlock:** after the trial, one purchase ("CamWall Unlock") keeps your cameras on the wall for good, including every 1.x update. The demo is always free.
+- **Other Apple TVs and family:** the trial and the unlock belong to your Apple Account and are shared with your Family Sharing group. If an Apple TV doesn't show it, choose **Settings → Purchase → Restore Purchases**.
+- **Reinstalling** doesn't restart the trial or lose the unlock.
+- **Refunds** are handled by Apple: [reportaproblem.apple.com](https://reportaproblem.apple.com).
+- **Ask to Buy:** a purchase waiting for a parent's approval unlocks once it's approved.
+
 ## Common questions
 
 **A camera shows an error card or stays black.**
@@ -30,7 +39,7 @@ On Frigate's port 5000 every user is anonymous, so review state can't be saved. 
 Try switching the camera's PTZ setting between *Through Frigate* and *Direct*. Some cameras (e.g. Tapo) refuse direct ONVIF control and work through Frigate instead.
 
 **Can I try CamWall without cameras?**
-Yes — choose Demo mode on first launch.
+Yes — choose **Try the Demo** on first launch. The demo is always free.
 
 **Does CamWall work away from home?**
 Only if your Apple TV can reach your Frigate server, for example over a VPN. CamWall has no cloud relay.
