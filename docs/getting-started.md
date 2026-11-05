@@ -10,11 +10,23 @@ Open CamWall and choose **Try the Demo** to explore the wall with sample cameras
 
 ## Option 1 · Frigate
 
+### Watch the Frigate setup walkthrough
+
+This 67-second walkthrough starts in **Settings → Frigate Server** and shows how to enter the server address, discover cameras and play the first live stream. It uses a local test endpoint and a synthetic camera feed. Enter your own Frigate address when you follow along.
+
+<video controls playsinline preload="none" width="960" style="max-width: 100%; height: auto;" aria-label="CamWall Frigate setup walkthrough">
+  <source src="https://veeeriz.github.io/CamWall/assets/videos/camwall-frigate-setup-tvos.mp4" type="video/mp4">
+</video>
+
+[Watch or download the MP4](https://veeeriz.github.io/CamWall/assets/videos/camwall-frigate-setup-tvos.mp4)
+
+### Connect your server
+
 1. Make sure the Apple TV can reach your Frigate server and its go2rtc RTSP port. In Frigate, configure a go2rtc restream for your camera and check that it plays. See [Frigate's restream guide](https://docs.frigate.video/configuration/restream/).
-2. On the CamWall welcome screen, enter the Frigate host or IP. Use the host reachable from the Apple TV, rather than a Docker-only hostname or the loopback address inside Frigate.
+2. On the **Welcome to CamWall** screen, enter the Frigate host or IP. If you already passed the welcome screen, open **Settings → Frigate Server** as shown in the video. Use the host reachable from the Apple TV, rather than a Docker-only hostname or the loopback address inside Frigate.
 3. For a standard Frigate installation with TLS, enable **Use HTTPS (port 8971)** and enter your Frigate username and password. If you use a self-signed certificate, allow it only for your own server after checking the address. For an existing trusted internal HTTP setup, use the mapped port for Frigate's unauthenticated API (default **5000**) and an IP address or a `.local` name. Keep the unauthenticated endpoint private. [Frigate authentication and ports](https://docs.frigate.video/configuration/authentication/)
 4. Leave **go2rtc RTSP port** at **8554** unless your host maps it differently. If Frigate is a Home Assistant app, you may need to enable this port in its network settings. [Frigate go2rtc troubleshooting](https://docs.frigate.video/troubleshooting/go2rtc/)
-5. Select **Connect & Discover Cameras**. Open a camera on the wall and confirm live video. Use a Frigate login to save **Mark reviewed** state.
+5. Select **Connect & Discover Cameras** on the welcome screen or **Discover Cameras** in Settings. Open a camera on the wall and confirm live video. Use a Frigate login to save **Mark reviewed** state.
 
 ### Example configurations to start with
 
